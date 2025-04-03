@@ -28,7 +28,7 @@ public class LoginPageActions {
 		loginPageLocaters.login.click();
 	}
 	public void login() {
-		File file=new File("C:\\Users\\drcha\\Desktop\\SE_Basics\\CucumberPageObjExtentReport\\src\\test\\resources\\Testdata.properties");
+		File file=new File("C:\\Users\\drcha\\git\\CucumberPageObjExtentReport\\CucumberPageObjExtentReport\\src\\test\\resources\\Testdata.properties");
 		FileInputStream fileInput=null;
 		try {
 			fileInput=new FileInputStream(file);
